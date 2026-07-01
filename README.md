@@ -4,14 +4,12 @@
 This repository provides a reference implementation of TraceRrec as described in the following paper "[Retracing and Restoring: Chronological Context Preservation for Effective Dynamic Recommendation](https://doi.org/10.1145/3774904.3792407)", published at ACM Web Conference 2026 (full paper).
 
 ## Inputs
-The structure of the input dataset is the following: 
-
-```| user_id | item_id | timestamp | features |```.
+The structure of the input dataset is the following: ```| user_id | item_id | timestamp | features |```.
 
 The dataset is preprocessed through ```libaray_data.py```.
 
 ## Outputs
-The model and accuracy of the best epoch are saved in the best_models folder and log folder, respectively.
+The best model is saved in the ```best_models``` folder, and its accuracy is recorded in the ```log``` folder.
 
 ## Usage
 To run TraceRec on different datasets, use the following commands:
